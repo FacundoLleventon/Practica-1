@@ -1,0 +1,38 @@
+.navbar{
+    box-shadow: 2px 2px 5px black;
+    opacity: .9;
+}
+
+.main-header{
+    position: relative;
+    background: url(/imagenes/background.jpg);
+    background-size: cover; /*para que ocupe todo el tamaño de la pantalla*/
+    min-height: 600px;
+    
+}
+
+.background-overlay{
+    position: absolute;
+    background: rgba(69, 48, 107, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    .libro{
+        transition: 0.8s;
+    }
+
+    .libro:hover{
+        transform: scale(1.1);
+        
+    }
+}
+
+.form-control, .btn {
+    border-radius: 0;
+}
+
+.team, footer{
+    background: #45306b;
+}

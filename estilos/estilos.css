@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+  opacity: .9;
+}
+
+.main-header {
+  position: relative;
+  background: url(/imagenes/background.jpg);
+  background-size: cover;
+  /*para que ocupe todo el tamaño de la pantalla*/
+  min-height: 600px;
+}
+
+.background-overlay {
+  position: absolute;
+  background: rgba(69, 48, 107, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-overlay .libro {
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.background-overlay .libro:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.form-control, .btn {
+  border-radius: 0;
+}
+
+.team, footer {
+  background: #45306b;
+}
+/*# sourceMappingURL=estilos.css.map */
